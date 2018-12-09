@@ -12,7 +12,7 @@ public class ChromeDriverWrapper extends WebDriverWrapper implements Initiable {
 
 	public void init(String gridUrl) throws MalformedURLException {
 
-		Capabilities capabilities = DesiredCapabilities.chrome();
+		Capabilities capabilities = DesiredCapabilities.chrome();//
 
 		driver = new RemoteWebDriver(new URL(gridUrl), capabilities);
 
