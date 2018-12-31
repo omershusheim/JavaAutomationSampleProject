@@ -29,7 +29,7 @@ public class BasicTest {
 
 	@After
 	public void tearDown() {
-
+		driverWrapper.quit();
 	}
 
 }

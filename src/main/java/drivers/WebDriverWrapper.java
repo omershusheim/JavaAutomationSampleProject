@@ -79,4 +79,9 @@ public class WebDriverWrapper implements Initiable {
 
 	}
 
+	public void quit() {
+		driver.quit();
+		
+	}
+
 }
